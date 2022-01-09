@@ -6,6 +6,72 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+caitlyn_media_data = [
+  {
+     media_id: "17843983904574957",
+     caption: '"Monday blues\n\nMake-up: \u0040helenformoso \nPhotography: \u0040nathan____hunt\n.\n.\n.\n.\n.\n#nycactress #nycactor #filmmaking #nycfilm #moviemagic #independentfilm #nycartist #filmlifestyle #70sfashion #blackandwhitephotography"',
+     media_type: "IMAGE",
+     media_url: "https://scontent-lga3-1.cdninstagram.com/v/t51.29350-15/168935902_780377309249102_4826311332394661013_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=iS4dwdn0-DUAX-yu6Bx&_nc_ht=scontent-lga3-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT-AKHmXnpLGOc-iPXHbJJ9VP6OKBJQQHx66i-ri755ebQ&oe=61DE19B6",
+     permalink: "https://www.instagram.com/p/CNS7Tx-BTqA/"
+  },
+  {
+     media_id: "17904876757873082",
+     caption: '"It may not look like fun, but it was a blast filming \u201cWall of Light.\u201d Can\u2019t wait to see the finished product! \n\n\u0040cartenzo \n\u0040askalottaaxelotls \n\u0040sean_gassaway \n.\n.\n.\n.\n#film #filmphotography #actor #nycactor #independentfilmmaking #indiefilm #blackandwhitephoto #shortfilmshoot"',
+     media_type: "CAROUSEL_ALBUM",
+     media_url: "https://scontent-lga3-1.cdninstagram.com/v/t51.29350-15/178451028_3627049154071412_7195045264854310225_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=_Ux9TGin-HAAX8_wTRf&_nc_ht=scontent-lga3-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT-Zh49LrQWm3RR_NQj-_VShLB6bNwpzZcp9I3cEoZt8lg&oe=61DDB352",
+     permalink: "https://www.instagram.com/p/COOY4FpBeq6/"
+  },
+  {
+     media_id: "17965241548382352",
+     caption: '"Celebrating my birthday by sharing one of my favorite memories from last year.  Thank you for all the love, friends. Very lucky \ud83e\udd70"',
+     media_type: "VIDEO",
+     media_url: "https://video-lga3-1.cdninstagram.com/v/t50.2886-16/186122669_2173219146142997_4794458213630148192_n.mp4?_nc_cat=111&vs=17885513306300064_2183130273&_nc_vs=HBksFQAYJEdLMEJHQXNWbFRrRGlMZ0hBR0RfNE5sWFZvbENia1lMQUFBRhUAAsgBABUAGCRHT2JQX1Fyd1Rhek5oZndEQUVTbS1SX29HQkItYmtZTEFBQUYVAgLIAQAoABgAGwGIB3VzZV9vaWwBMRUAACbAzYa78LHFPxUCKAJDMywXQE37peNT988YEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHAA\u00253D\u00253D&ccb=1-5&_nc_sid=59939d&efg=eyJ2ZW5jb2RlX3RhZyI6InZ0c192b2RfdXJsZ2VuLjcyMC5mZWVkIn0\u00253D&_nc_ohc=JxsXMBU9yxgAX9LM1II&_nc_ht=video-lga3-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT_fKwe_BRG8JLWE5oFson-o8qYTLaZNUc8q76JiJSCkfA&oe=61D96E0A&_nc_rid=f8b1ab0e06",
+     permalink: "https://www.instagram.com/p/COxqagPBfD8/",
+     thumbnail_url: "https://scontent-lga3-1.cdninstagram.com/v/t51.29350-15/183992650_546679886314703_4739633313145450543_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=PxVSuToKfzMAX_mp6XP&_nc_ht=scontent-lga3-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT_4m2MBDld1pBrlbympM7vO3-GOrfkRZM21DaPjH6MqHQ&oe=61DE10EC"
+  },
+  {
+     media_id: "18112377295227806",
+     caption: '"The real powerpuff girls reboot \n\u0040someonesomewherefilm \n.\n.\n.\n#actor #nycactor #shortfilms #someonesomewhere #independentfilmmaking #nycrooftop #nyccasting #moviemagic #seekingrepresentation"',
+     media_type: "CAROUSEL_ALBUM",
+     media_url: "https://scontent-lga3-1.cdninstagram.com/v/t51.29350-15/185825030_600630947755680_7326181088251800660_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=pBUljAxaLrUAX_nqTRV&_nc_ht=scontent-lga3-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT_wdE6pickIksW_hdJg_Z2RReWScWoFtXlCnDE0mUh47w&oe=61DDC006",
+     permalink: "https://www.instagram.com/p/CO6r6zfhKJw/"
+  },
+  {
+     media_id: "17873673548438220",
+     caption: '"\ud83e\udd70"',
+     media_type: "IMAGE",
+     media_url: "https://scontent-lga3-1.cdninstagram.com/v/t51.29350-15/213829188_511789433425801_1272554737739358295_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=vVww64rzSeAAX83e-0d&_nc_ht=scontent-lga3-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT8HID1fHKx9CxjXzRvQJbDdjkDwqVPAiCXNA3thjkgXbw&oe=61DD73A1",
+     permalink: "https://www.instagram.com/p/CRMjXRcBqYB/"
+  },
+  {
+     media_id: "17945722735502436",
+     caption: '"LA is trying to melt my cold east coast heart \ud83e\udd0d \u0040the_life_of_ryley"',
+     media_type: "IMAGE",
+     media_url: "https://scontent-lga3-1.cdninstagram.com/v/t51.29350-15/220484710_847552886196612_1369927792410458299_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=9w3TOZJnxCUAX9I4oTw&_nc_ht=scontent-lga3-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT9REcT0X6-_VjCD3Q2NyUiBVzk5QoslsD80xlYihDFnjA&oe=61DE8308",
+     permalink: "https://www.instagram.com/p/CRhWRC4hUYd/"
+  },
+  {
+     media_id: "17988267259374479",
+     caption: '"All I\u2019m saying is the east coast better step it up!"',
+     media_type: "CAROUSEL_ALBUM",
+     media_url: "https://scontent-lga3-1.cdninstagram.com/v/t51.29350-15/225806771_217708333580741_1236354975794672542_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=V5i0IgDax2oAX8-hTKC&_nc_ht=scontent-lga3-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT-t7IeptVnez12jMP3KrLd3eSKCVjDai9wwrZBd97K-6w&oe=61DD571D",
+     permalink: "https://www.instagram.com/p/CR7z_tkAGci/"
+  },
+  {
+     media_id: "17928526201914820",
+     caption: '"New hinge pic? \u0040beautybybeatrixnyc"',
+     media_type: "IMAGE",
+     media_url: "https://scontent-lga3-1.cdninstagram.com/v/t51.29350-15/266408378_639486013745350_1828705123946097442_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=nJg_mxSf63IAX94Gp-0&_nc_ht=scontent-lga3-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT9iliCDmtFG-LcdMQfKHhFuRMcVtbz1QP6UoL9sFYMBbQ&oe=61DEBC53",
+     permalink: "https://www.instagram.com/p/CXZYJudPTr2/"
+  },
+  {
+     media_id: "17943969157729224",
+     caption: '"Wholesome family content! Merry Christmas!! \u2764\ufe0f"',
+     media_type: "CAROUSEL_ALBUM",
+     media_url: "https://scontent-lga3-1.cdninstagram.com/v/t51.29350-15/270134365_461249695357074_447355966699527728_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=XEsMG6z7BVIAX8FbCSg&_nc_ht=scontent-lga3-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT_s8O5YD4ugBcNbbhc5ipX9v8TO5c_iUNf1quguJdaT_w&oe=61DE9237",
+     permalink: "https://www.instagram.com/p/CX7VvV2umPe/"
+  }
+]
 media_data = [
   {media_id:"17934406024856818",media_type:"IMAGE",media_url:"https://scontent-lax3-1.cdninstagram.com/v/t51.29350-15/269758551_1748143095395611_52198159231121309_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=jtJw-9S4onMAX-e6x2d&_nc_ht=scontent-lax3-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT8vH6q_u9CmRwZPT7CKDTIUXwfhyFrMEwPu8DVw8hYLvQ&oe=61D8CB0B"},
   {media_id:"17964331180511428",media_type:"IMAGE",media_url:"https://scontent-lax3-2.cdninstagram.com/v/t51.29350-15/269715393_340367650860109_1786123987804924784_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=6uVAycKjSE0AX-8fOuW&_nc_ht=scontent-lax3-2.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT9v0LGFXap6wt6cp6Wb_OHS1heJYAD-Q3vr_NO7ANEtLg&oe=61D8F621"},
@@ -18,11 +84,12 @@ media_data = [
   {media_id:"17925228524025795",caption:"9",media_type:"IMAGE",media_url:"https://scontent-lax3-1.cdninstagram.com/v/t51.29350-15/271249545_993030151638996_7536152975236689402_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=HzLUnRAYb_kAX8jrIeK&_nc_ht=scontent-lax3-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT-Z9A2v2AKtxqIqc8vNcqb1FpU64GQK1veaKu_q8V3M2w&oe=61D9521A"}
 ]
 
-for data in media_data
+for data in caitlyn_media_data
   # data[:thumbnail_url] = 'none' unless data[:thumbnail_url]
   # data[:caption] = '' unless data[:caption]
+  parsed_caption = JSON.parse(data[:caption])
 
-  @medium = Medium.create(media_id: data[:media_id], caption: data[:caption], media_type: data[:media_type], media_url: data[:media_url], thumbnail_url: data[:thumbnail_url])
+  @medium = Medium.create(media_id: data[:media_id], caption: parsed_caption, media_type: data[:media_type], media_url: data[:media_url], thumbnail_url: data[:thumbnail_url], permalink: data[:permalink])
 end
 
 
