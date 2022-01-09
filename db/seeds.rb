@@ -8,6 +8,13 @@
 
 caitlyn_media_data = [
   {
+     media_id: "17892399391987306",
+     caption: '"Looking for a girl with sad eyes who could possibly kill you? I\u2019m your gal! Loved working on \u201cValerie\u201d with a great team of people. Thank you \u0040christin_usa! \n\n\u0040thepearlsdailyshow \n\u0040danielbarrettofficial\n\n#nycactor #film #actress #nycfilm #cinema #actinglife #independentfilmmakers #art #newyorkcity"',
+     media_type: "IMAGE",
+     media_url: "https://scontent-lga3-1.cdninstagram.com/v/t51.29350-15/162378199_1091098767968794_5479776447215803615_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=mHd8cCt5g08AX9aGFLH&_nc_ht=scontent-lga3-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT__N3Uwlep05SLZUCpdLC7HePoJs220W0ZcCtZVmqs3Dg&oe=61DFCD73",
+     permalink: "https://www.instagram.com/p/CMpeiTVhbeX/"
+  },  
+  {
      media_id: "17843983904574957",
      caption: '"Monday blues\n\nMake-up: \u0040helenformoso \nPhotography: \u0040nathan____hunt\n.\n.\n.\n.\n.\n#nycactress #nycactor #filmmaking #nycfilm #moviemagic #independentfilm #nycartist #filmlifestyle #70sfashion #blackandwhitephotography"',
      media_type: "IMAGE",
@@ -20,14 +27,6 @@ caitlyn_media_data = [
      media_type: "CAROUSEL_ALBUM",
      media_url: "https://scontent-lga3-1.cdninstagram.com/v/t51.29350-15/178451028_3627049154071412_7195045264854310225_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=_Ux9TGin-HAAX8_wTRf&_nc_ht=scontent-lga3-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT-Zh49LrQWm3RR_NQj-_VShLB6bNwpzZcp9I3cEoZt8lg&oe=61DDB352",
      permalink: "https://www.instagram.com/p/COOY4FpBeq6/"
-  },
-  {
-     media_id: "17965241548382352",
-     caption: '"Celebrating my birthday by sharing one of my favorite memories from last year.  Thank you for all the love, friends. Very lucky \ud83e\udd70"',
-     media_type: "VIDEO",
-     media_url: "https://video-lga3-1.cdninstagram.com/v/t50.2886-16/186122669_2173219146142997_4794458213630148192_n.mp4?_nc_cat=111&vs=17885513306300064_2183130273&_nc_vs=HBksFQAYJEdLMEJHQXNWbFRrRGlMZ0hBR0RfNE5sWFZvbENia1lMQUFBRhUAAsgBABUAGCRHT2JQX1Fyd1Rhek5oZndEQUVTbS1SX29HQkItYmtZTEFBQUYVAgLIAQAoABgAGwGIB3VzZV9vaWwBMRUAACbAzYa78LHFPxUCKAJDMywXQE37peNT988YEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHAA\u00253D\u00253D&ccb=1-5&_nc_sid=59939d&efg=eyJ2ZW5jb2RlX3RhZyI6InZ0c192b2RfdXJsZ2VuLjcyMC5mZWVkIn0\u00253D&_nc_ohc=JxsXMBU9yxgAX9LM1II&_nc_ht=video-lga3-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT_fKwe_BRG8JLWE5oFson-o8qYTLaZNUc8q76JiJSCkfA&oe=61D96E0A&_nc_rid=f8b1ab0e06",
-     permalink: "https://www.instagram.com/p/COxqagPBfD8/",
-     thumbnail_url: "https://scontent-lga3-1.cdninstagram.com/v/t51.29350-15/183992650_546679886314703_4739633313145450543_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=PxVSuToKfzMAX_mp6XP&_nc_ht=scontent-lga3-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT_4m2MBDld1pBrlbympM7vO3-GOrfkRZM21DaPjH6MqHQ&oe=61DE10EC"
   },
   {
      media_id: "18112377295227806",
