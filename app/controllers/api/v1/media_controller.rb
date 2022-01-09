@@ -1,3 +1,5 @@
+require 'json'
+
 module Api
   module V1
     class MediaController < ApplicationController
@@ -13,7 +15,14 @@ module Api
       end
 
       def create
-        @medium = Medium.new(params[:medium])
+        @medium = Medium.new(
+          media_id: params[:medium][:id],
+          caption: JSON.parse(params[:medium][:caption]),
+          media_type: params[:medium][:media_type],
+          media_url: params[:medium][:media_url],
+          permalink: params[:medium][:permalink],
+          thumbnail_url: params[:medium][:thumbnail_url],
+        )
         if @medium.save
           redirect_to @medium
         else
@@ -30,6 +39,7 @@ module Api
         @media = Medium.all.order({ created_at: :desc }).limit(9)
         render :json => @media
       end
+
 
     end
   end

@@ -6,6 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+require 'json'
+
 caitlyn_media_data = [
   {
      media_id: "17892399391987306",
@@ -13,7 +15,7 @@ caitlyn_media_data = [
      media_type: "IMAGE",
      media_url: "https://scontent-lga3-1.cdninstagram.com/v/t51.29350-15/162378199_1091098767968794_5479776447215803615_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=mHd8cCt5g08AX9aGFLH&_nc_ht=scontent-lga3-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT__N3Uwlep05SLZUCpdLC7HePoJs220W0ZcCtZVmqs3Dg&oe=61DFCD73",
      permalink: "https://www.instagram.com/p/CMpeiTVhbeX/"
-  },  
+  },
   {
      media_id: "17843983904574957",
      caption: '"Monday blues\n\nMake-up: \u0040helenformoso \nPhotography: \u0040nathan____hunt\n.\n.\n.\n.\n.\n#nycactress #nycactor #filmmaking #nycfilm #moviemagic #independentfilm #nycartist #filmlifestyle #70sfashion #blackandwhitephotography"',
