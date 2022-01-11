@@ -37,8 +37,18 @@ module Api
       end
 
       def get_last_nine
-        @media = Medium.all.order({ timestamp: :desc }).limit(9)
-        render :json => @media
+        used = []
+        result = []
+        @media = Medium.all.order({ timestamp: :desc })
+
+        @media.each { |m|
+          if not used.include?(m.media_id)
+            used << m.media_id
+            result << m
+          end
+        }
+
+        render :json => result.limit(9)
       end
 
 
