@@ -48,7 +48,7 @@ module Api
           end
         }
 
-        render :json => result.limit(9)
+        render :json => result
       end
 
 
