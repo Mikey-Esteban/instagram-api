@@ -17,11 +17,12 @@ module Api
       def create
         @medium = Medium.new(
           media_id: params[:medium][:id],
-          caption: JSON.parse(params[:medium][:caption]),
+          caption: params[:medium][:caption],
           media_type: params[:medium][:media_type],
           media_url: params[:medium][:media_url],
           permalink: params[:medium][:permalink],
           thumbnail_url: params[:medium][:thumbnail_url],
+          timestamp: params[:medium][:timestamp].to_datetime
         )
         if @medium.save
           redirect_to @medium
@@ -36,7 +37,7 @@ module Api
       end
 
       def get_last_nine
-        @media = Medium.all.order({ created_at: :desc }).limit(9)
+        @media = Medium.all.order({ timestamp: :desc }).limit(9)
         render :json => @media
       end
 
