@@ -48,7 +48,7 @@ module Api
           end
         }
 
-        render :json => result
+        render :json => result.first(9)
       end
 
 
