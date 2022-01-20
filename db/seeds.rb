@@ -94,4 +94,4 @@
 # end
 
 
-@access = Access.create(last_accessed: (Time.new - (2.0 / 24)))
+@access = Access.create(last_accessed: (Time.new - 2.hours))
