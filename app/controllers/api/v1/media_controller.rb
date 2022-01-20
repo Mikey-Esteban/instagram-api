@@ -51,6 +51,11 @@ module Api
         render :json => result.first(9)
       end
 
+      def delete_all
+        Medium.delete_all
+
+        render :json => { message: 'all media deleted'}
+      end
 
     end
   end

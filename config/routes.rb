@@ -6,6 +6,7 @@ Rails.application.routes.draw do
       resources :accesses, only: [:create]
       get"/get_most_recent", to: "media#get_most_recent"
       get"/get_last_nine", to: "media#get_last_nine"
+      delete "/delete_all", to: "media#delete_all"
       get "/last_accessed", to: "accesses#get_last"
     end
   end
